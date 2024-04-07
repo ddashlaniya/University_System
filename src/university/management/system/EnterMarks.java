@@ -123,9 +123,6 @@ public class EnterMarks extends JFrame implements ActionListener {
             
      
             Connect c = new Connect();
-           // String query1 = "insert into Subjects values('"+roll+"','"+sem+"','"+sub1+"','"+sub2+"','"+sub3+"','"+sub4+"','"+sub5+"',)";
-           // String query2 ="insert into Marks values('"+roll+"','"+sem+"','"+mark1+"','"+mark2+"','"+mark3+"','"+mark4+"','"+mark5+"')"; 
-             
                 
                String query1 = "insert into Subjects values('"+sroll.getSelectedItem()+"', '"+csemester.getSelectedItem()+"', '"+subject1.getText()+"', '"+subject2.getText()+"', '"+subject3.getText()+"', '"+subject4.getText()+"', '"+subject5.getText()+"')";
                String query2 = "insert into Marks values('"+sroll.getSelectedItem()+"', '"+csemester.getSelectedItem()+"', '"+marks1.getText()+"', '"+marks2.getText()+"', '"+marks3.getText()+"', '"+marks4.getText()+"', '"+marks5.getText()+"')";
