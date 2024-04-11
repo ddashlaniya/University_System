@@ -100,7 +100,7 @@ public class SeeResult extends JFrame implements ActionListener{
           add(mark5);
           
           try{
-             
+             // Get student marks in two deferent tables , Subject and Marks
              Connect c = new Connect();
             
             ResultSet rs1 = c.S.executeQuery("select * from Subjects where Roll_No = '"+roll+"'");
